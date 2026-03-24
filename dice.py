@@ -1,7 +1,7 @@
 import random
 from fastmcp import FastMCP
 
-# Create a FastMCP server instance
+# Checking the changes for github commit
 def register_dice_tools(mcp:FastMCP):
     @mcp.tool
     def roll_dice(n_dice: int = 1) -> list[int]:
